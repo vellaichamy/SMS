@@ -1,0 +1,40 @@
+{
+    "name": "sprint-management-system",
+    "author": "Dan Wahlin",
+    "version": "1.0.0",
+    "repository": "https://github.com/vellaichamy/sprint-management-system",
+    "scripts": {
+        "tsc": "tsc",
+        "tsc:w": "tsc -w",
+        "start:nodemon": "tsc && concurrently \"tsc -w\" \"nodemon server.js\" ",
+        "start": "tsc && concurrently \"tsc -w\" \"node server.js\" "
+    },
+    "license": "ISC",
+    "dependencies": {
+        "@angular/common": "2.4.4",
+        "@angular/compiler": "2.4.4",
+        "@angular/core": "2.4.4",
+        "@angular/forms": "2.4.4",
+        "@angular/http": "2.4.4",
+        "@angular/platform-browser": "2.4.4",
+        "@angular/platform-browser-dynamic": "2.4.4",
+        "@angular/router": "3.4.4",
+        "@angular/upgrade": "2.4.4",
+        "systemjs": "0.19.43",
+        "core-js": "^2.4.1",
+        "reflect-metadata": "^0.1.9",
+        "rxjs": "5.0.3",
+        "zone.js": "^0.7.6",
+        "express": "^4.14.0",
+        "body-parser": "^1.16.0"
+    },
+    "devDependencies": {
+        "concurrently": "^3.1.0",
+        "typescript": "2.1.5",
+        "opn": "^4.0.2",
+        "@types/core-js": "^0.9.35",
+        "@types/node": "^7.0.0",
+        "@types/google-maps": "^3.2.0",
+        "lite-server": "^2.2.2"
+    }
+}
