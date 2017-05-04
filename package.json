@@ -1,8 +1,8 @@
 {
-    "name": "sprint-management-system",
+    "name": "SMS",
     "author": "Dan Wahlin",
     "version": "1.0.0",
-    "repository": "https://github.com/vellaichamy/sprint-management-system",
+    "repository": "https://github.com/vellaichamy/SMS",
     "scripts": {
         "tsc": "tsc",
         "tsc:w": "tsc -w",
